@@ -11,9 +11,12 @@ class Quiz extends React.Component{
         this.state = {
             questions_choices: quest_choices, //grabs json file
             score: 0,
-            current_question: 0,
+            current_question: 1,
             showNextButton: false,
             questionAnswered: false,
+            question: quest_choices[0].question,
+            choices: quest_choices[0].choices,
+            answer: quest_choices[0].answer,
         };
 
         this.clickNext = this.clickNext.bind(this);
@@ -29,13 +32,6 @@ class Quiz extends React.Component{
             answer: quest_choices[current_question].answer,
             current_question: this.state.current_question + 1
         })
-    }
-
-    UNSAFE_componentWillMount() { //is invoked just before mounting occurs - meaning that it is called before render()
-        let {
-            current_question
-        } = this.state;
-        this.currentQuestion(current_question); //will call currentQuestion method first
     }
 
     clickNext() { //when user clicks on next button

@@ -8,6 +8,12 @@ class Quiz extends React.Component {
         super();
     }
 
+    // componentDidMount(){
+    //     let {currentQuestion, current_question} = this.props;
+
+    //     currentQuestion(current_question); 
+    // }
+
     render() {
         const { question, color, questionAnswered, questions_choices, choices, current_question, score, showNextButton, handleShowNextButton, scoring, clickNext } = this.props;
         let showScore = null;
