@@ -1,0 +1,11 @@
+[
+    { "id": 1, "question": "What year was Benefit Cosmetics found in?", "choices": [ "2000", "1988", "1976", "1967"], "answer": "1976" },
+    { "id": 2, "question": "Who are the founders of Benefit Cosmetics?", "choices": [ "Scarlett and Hunter Johansson", "Jean and Jane Ford", "Tina and Louise Belcher", "Jaime and Amy Foxx"], "answer": "Jean and Jane Ford" },
+    { "id": 3, "question": "In what city was Benefit Cosmetics found in?", "choices": [ "San Francisco", "New York City", "Austin", "Miami"], "answer": "San Francisco" },
+    { "id": 4, "question": "What was the first product of Benefit Cosmetics?", "choices": [ "they're real! lengthening mascara", "Rose Tint", "foolproof brow powder", "the POREfessional face primer"],  "answer": "Rose Tint"},
+    { "id": 5, "question": "For what did Guiness World Record did Benefit Cosmetics earn?", "choices": ["most eyebrow waxes in eight hours by a team", "Most Cosmetic Makeovers by a Team of Five in One Hour"], "answer": "most eyebrow waxes in eight hours by a team"},
+    { "id": 6, "question": "Which of these would be used on the hair after shampooing it?", "choices": [ "Cologne", "Conditioner", "Lip Balm", "Aftershave"], "answer": "Conditioner" },
+    { "id": 7, "question": "What is the English translation of the French term 'eau de toilette', a lightly-scented substance?", "choices": [ "Toilet Water", "Sparking Water", "Bottled Water", "Rain Water"], "answer": "Toilet Water" },
+    { "id": 8, "question": "How much money did Americans spend on skin-care products in supermarkets and drugstores in 2004? ", "choices": [ "1 B", "2 B", "2.3 B", "1.69 B"], "answer": "1.69 B" },
+    { "id": 9, "question": "In terms of beauty, the forehead, nose, and chin are referred to as the?", "choices": [ "Dry Zone", "T-zone", "Oily zone", "Control zone"],  "answer": "T-zone"}
+]

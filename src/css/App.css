@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Noto+Sans');
+
+body{
+  background: #FD7482;
+
+}
+
+.quiz{
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  grid-gap: 10px;
+  justify-items: center;  
+  height: 85vh;
+}
+.quiz_title{
+  /* font-family: 'Fjalla One', sans-serif; */
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+color:white;
+}
+
+.MainQuiz{
+  font-family: 'Noto Sans', sans-serif;
+font-weight: 300;
+}
+
+#main {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.green{
+  transition: all 0.5s ease;
+  background: rgb(144, 226, 144);
+}
+.red{
+  transition: all 0.5s ease;
+  background: rgb(230, 76, 76);
+}
+
+.answerChoice{
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid rgb(218, 108, 125);
+  margin-bottom: 1px;
+}
+
+.answerChoice:hover{
+  border: 3px solid rgb(18, 218, 218);
+}
+
+.answerChoice:hover, input.radioAnswerButton:hover, label.radioAnswerLabel:hover{
+  cursor: pointer;
+}
+
+.next{
+  text-align: center;
+}
+
+.next > button{
+  border: none;
+  font-family: sans-serif;
+  font-size: 22px;
+  border: 3px solid pink;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.next > button:hover{
+  background:rgba(255, 192, 201, 0.452);
+}
+
+.score{
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-top:10px;
+}
+
+.Result{
+  width: 300px;
+  text-align: center;
+}
+
